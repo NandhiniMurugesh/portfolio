@@ -1,0 +1,275 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Teko&display=swap');
+
+body
+{
+background-color: black;
+}
+/* Hover */
+a:hover
+{
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen;
+}
+/* Home page Content */
+.home-content
+{
+    color: yellowgreen;
+    margin-top: 10%;
+    margin-left: 100px;
+
+}
+/* Name Glow */
+.glow
+{
+    font-size: 50px;
+    color: #fff;
+   
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow
+{
+from
+{
+    text-shadow: 2px 2px 8px rgb(169, 255, 169);
+}
+to{
+    text-shadow: 10px 10px 8px  lime;
+}
+}
+/* Image Hover */
+.home-image img:hover
+{
+    transform: scale(1.2);  
+}
+.home-image
+{
+    margin-top: 10%;
+}
+.buttonCv
+{
+    color: rgb(22, 22, 22);
+    background-image: linear-gradient(to top right,yellowgreen,silver);
+    border: 2px solid rgb(1, 1, 1);
+}
+.buttonHire
+{
+    color: rgb(21, 21, 21);
+    background-image: linear-gradient(to top right,yellowgreen,silver);
+    border: 2px solid rgb(10, 10, 10);
+    
+}
+
+.homePage
+{
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid yellowgreen;
+    transition: border 0.5s ease;
+         /* Add the pulsing animation to the border */
+         animation: border-pulse 4s ease-in-out infinite;
+}
+@keyframes border-pulse {
+    0% {
+       border-color: rgb(90, 88, 88);
+    }
+    50% {
+       border-color: rgb(149, 251, 16);
+    }
+    100% {
+       border-color: rgb(212, 255, 0);
+    }
+ }
+ .about-heading::first-letter
+ {
+    color: yellowgreen;
+ }
+ .about-heading
+ {
+    color: white;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 4vw;
+    margin-left: 65%;
+  
+ }
+.about-content
+{
+    color: white;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 25px;
+    width: 40vw;
+    margin-left: 70%;
+}
+.aboutMain
+{
+    width: 100vw;
+    height: 100vh;
+     border: 5px solid yellowgreen;
+    transition: border 0.5s ease;
+         /* Add the pulsing animation to the border */
+         animation: border-pulse 4s ease-in-out infinite;
+}
+@keyframes border-pulse {
+    0% {
+       border-color: rgb(90, 88, 88);
+    }
+    50% {
+       border-color: rgb(149, 251, 16);
+    }
+    100% {
+       border-color: rgb(212, 255, 0);
+    }
+ }
+ .aboutImage
+ {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    /* background-color: yellowgreen; */
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+   
+  }
+  
+  @keyframes example {
+    0%   {background-image:url('"C:\Users\hp\Downloads\NANDHINI MURUGESH.jpg"'); left:0px; top:0px;}
+    25%  {background-image:url('"C:\Users\hp\Downloads\NANDHINI MURUGESH.jpg"'); left:200px; top:0px;}
+    50%  {background-image:url('"C:\Users\hp\Downloads\NANDHINI MURUGESH.jpg"'); left:200px; top:200px;}
+    75%  {background-image:url('"C:\Users\hp\Downloads\NANDHINI MURUGESH.jpg"');left:0px; top:200px;}
+    100% {background-image:url('"C:\Users\hp\Downloads\NANDHINI MURUGESH.jpg"'); left:0px; top:0px;}
+  }
+  /* skills page */
+  .skillMain
+  {
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid yellowgreen;
+    transition: border 0.5s ease;
+         /* Add the pulsing animation to the border */
+         animation: border-pulse 4s ease-in-out infinite;
+}
+
+
+@keyframes border-pulse {
+    0% {
+       border-color: rgb(90, 88, 88);
+    }
+    50% {
+       border-color: rgb(149, 251, 16);
+    }
+    100% {
+       border-color: rgb(212, 255, 0);
+    }
+ }
+
+ .skillcard{
+    width: 30%;
+    height: 30%;
+    background-color: black;
+ }
+ .reactimage{
+    width: 100%;
+    height: 100%;
+ }
+ .nodeimage{
+    width: 80%;
+    height: 80%;
+ }
+ .mysqlimage{
+    width: 80%;
+    height: 60%;
+ }
+ .javaimage{
+    width: 50%;
+    height: 100%;
+ }
+ .cert{
+    background-color: black;
+ }
+ .htmlcert{
+    height: 30%;
+    width: 55%;
+  
+ }
+ .jscert{
+    height: 30%;
+    width: 55%;
+  
+ }
+ .reactcert{
+    height: 30%;
+    width: 55%;
+  
+ }
+
+  /* certificates */
+  .certificateMain
+  {
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid yellowgreen;
+    transition: border 0.5s ease;
+         /* Add the pulsing animation to the border */
+         animation: border-pulse 4s ease-in-out infinite;
+}
+@keyframes border-pulse {
+    0% {
+       border-color: rgb(90, 88, 88);
+    }
+    50% {
+       border-color: rgb(149, 251, 16);
+    }
+    100% {
+       border-color: rgb(212, 255, 0);
+    }
+ }
+  
+
+  
+   /* Contact */
+ .contactMain
+   {
+     width: 100vw;
+     height: 100vh;
+     border: 5px solid yellowgreen;
+     transition: border 0.5s ease;
+          /* Add the pulsing animation to the border */
+          animation: border-pulse 4s ease-in-out infinite;
+ }
+ @keyframes border-pulse {
+     0% {
+        border-color: rgb(90, 88, 88);
+     }
+     50% {
+        border-color: rgb(149, 251, 16);
+     }
+     100% {
+        border-color: rgb(212, 255, 0);
+     }
+  }
+  .contactDetail
+  {
+   color:yellowgreen
+   
+  }
+  .git
+  {
+   font-size: 350%;
+  }
+  
+  .linkedin
+  {
+   font-size: 350%;
+  }
+.git:hover{
+    border: 30px solid yellowgreen;
+    background-color: yellowgreen;   
+}
+ 
+.linkedin:hover{
+    border: 30px solid yellowgreen;
+    background-color: yellowgreen;   
+}
+ 
